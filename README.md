@@ -1,3 +1,3 @@
 # Machine Vision Course 101
 
-This course was created by Nico De Witte as part of the PWO Machine Vision at Vives University College in Ostend / Bruges.
+De cursus werd gemaakt door Nico De Witte als onderdeel van het PWO project "MachineVisie" aan de VIVES Hogeschool te Oostende / Brugge.

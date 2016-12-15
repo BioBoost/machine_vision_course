@@ -14,4 +14,5 @@
 
 ----
 
+* [Over ons](about.md)
 * [Bibliografie](sources.md)
