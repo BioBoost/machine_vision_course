@@ -4,7 +4,7 @@
 
 ### Theorie
 
-* [Introduction](introduction/introduction.md)
+* [Inleiding](introduction/introduction.md)
 
 ### Oefeningen
 
