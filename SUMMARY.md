@@ -7,6 +7,7 @@
 * [Inleiding](introduction/introduction.md)
 * [Camera](camera/camera.md)
 * [Lens](lens/lens.md)
+* [Belichting](lighting/lighting.md)
 
 ### Oefeningen
 
