@@ -20,7 +20,7 @@ van interactieve reclame, informatiekiosken in attractieparken, ...
 
 Wanneer wordt gesproken over machinevisie, dan houdt dit een visiesysteem in binnen een industriële context.
 
-![Machinevisie^1](img/machine_vision.gif)
+![Machinevisie[^1]](img/machine_vision.gif)
 
 [^1]: Illumination Technologies Inc. Machine Vision. Opgehaald van http://www.illuminationtech.com
 
@@ -49,7 +49,7 @@ De kwaliteit van producten die moeten voldoen aan bepaalde strikte wetgevingen (
 
 Ten opzicht van inspectie door een persoon, heeft machinevisie het voordeel dat het sneller, consistenter en onvermoeibaar is. Zo zijn er reeds machinevisie inspectiesystemen die meer dan 1000 objecten per minuut inspecteren. Daarnaast zal de software nooit de regels buigen naar zijn eigen wil. Elk beeld zal hetzelfde worden verwerkt. Machines zijn ook perfect voor het uitvoeren van repetitieve taken, terwijl mensen beter kunnen worden ingezet voor andere taken.
 
-![Inspectie door persoon^2](img/human_inspection.png)
+![Inspectie door persoon[^2]](img/human_inspection.png)
 
 [^2]: Tom Parker/OneRedEye. Human inspection of defective finishes. Opgehaald van http://graphene.limited/deep-dive-into-technology-2/glass-empty-bottle-inspecto/finish-inspection-crown.html
 
@@ -88,7 +88,7 @@ Een aantal voorbeelden die binnen deze categorie vallen zijn:
 * nazicht of metalen platen geen deuken bevatten
 * ...
 
-![Samenstelling van laminaat^3](img/laminate-floor-cutaway.gif)
+![Samenstelling van laminaat[^3]](img/laminate-floor-cutaway.gif)
 
 [^3]: How Stuff Works (2009). How Laminate Floors Work. Opgehaald van http://home.howstuffworks.com/home-improvement/home-diy/flooring/laminate-floor1.htm
 
@@ -107,7 +107,7 @@ Een aantal voorbeelden die binnen deze categorie vallen zijn:
 * opmeten van de draaddiameter van bouten
 * ...
 
-![Opmeten van de draaddiameter van bouten^4](img/example_measure_bolt.jpg)
+![Opmeten van de draaddiameter van bouten[^4]](img/example_measure_bolt.jpg)
 
 [^4]: Decision Technology, LLC. Non-Contact Measurement and Inspection Tool for Bolt Threads. Opgehaald van http://www.visionintegrator.com/vision-technology-case-study7.htm
 
@@ -123,11 +123,11 @@ Dit systeem kan bijvoorbeeld ook gebruikt worden bij pick-and-place robots om de
 
 Machinevisie kan tevens gebruikt worden om de locatie en rotatie van objecten te bepalen die bijvoorbeeld los op een transportband liggen. Deze coördinaten kunnen dan bijvoorbeeld aan een pick-and-place robot worden doorgegeven zodat de stukken correct kunnen worden gegrepen en verplaatst.
 
-![Locatiebepaling object op transportband[^5](img/location_conveyor.jpg)
+![Locatiebepaling object op transportband[^5]](img/location_conveyor.jpg)
 
 [^5]: Cubic Machinery, Inc. Safely Palletizing products with humans working closely. Opgehaald van http://www.cubicautomation.com/solutions
 
-![Pick-and-place met machinevisie^6](img/pick_and_place.jpg)
+![Pick-and-place met machinevisie[^6]](img/pick_and_place.jpg)
 
 [^6]: Carroll, J. (2014). 3D pattern matching. Opgehaald van http://www.vision-systems.com/articles/2014/09/tips-for-2d-and-3d-pattern-matching-in-machine-vision-applications.html
 
@@ -141,7 +141,7 @@ Een machinevisiesysteem, zoals weergegeven in volgende figuur, bestaat typisch u
 * **een verwerkingseenheid** die de beelden analyseert en verwerkt. Dit kan een computer, een embedded systeem of de camera zelf zijn (smart-camera);
 * en **een display** of **HMI** (Human Machine Interface) dat instaat voor de interactie met de operator.
 
-![Een typisch machinevisiesysteem^7](img/machine_vision_setup.png)
+![Een typisch machinevisiesysteem[^7]](img/machine_vision_setup.png)
 
 [^7]: Reference lost
 
