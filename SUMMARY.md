@@ -9,6 +9,7 @@
 * [Lens](lens/lens.md)
 * [Belichting](lighting/lighting.md)
 * [Beeldverwerking](image_processing/image_processing.md)
+* [Communicatie](communication/communication.md)
 
 ### Oefeningen
 
