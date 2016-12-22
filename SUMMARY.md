@@ -5,6 +5,7 @@
 ### Theorie
 
 * [Inleiding](introduction/introduction.md)
+* [Camera](camera/camera.md)
 
 ### Oefeningen
 

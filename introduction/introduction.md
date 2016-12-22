@@ -1,4 +1,6 @@
-# Machinevisie - Inleiding
+<!-- toc -->
+
+# Inleiding
 
 Vandaag de dag zijn heel wat stappen binnen het productieproces geautomatiseerd.
 Dit gaat van aanvoering en materiaalbewerking tot assemblage. Een logische volgende
