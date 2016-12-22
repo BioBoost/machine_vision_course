@@ -8,6 +8,7 @@
 * [Camera](camera/camera.md)
 * [Lens](lens/lens.md)
 * [Belichting](lighting/lighting.md)
+* [Beeldverwerking](image_processing/image_processing.md)
 
 ### Oefeningen
 
