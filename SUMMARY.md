@@ -22,4 +22,4 @@
 
 * [Over ons](about.md)
 * [Bibliografie](sources.md)
-* [License](LICENSE)
+* [License](LICENSE.md)
