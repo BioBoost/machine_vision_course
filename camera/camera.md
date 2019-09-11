@@ -124,13 +124,9 @@ Sensor Formaat      | H [mm]                | V [mm]        |    D [mm]
 
 Om de exacte afmetingen van de sensor te weten kan gebruik gemaakt worden van de resolutie en de pixelsize zoals aangegeven in volgende formules.
 
-$$
-sensor_{hor} = Rc_{hor} * pixelsize / 1000
-$$
+$$ sensor_{hor} = Rc_{hor} * pixelsize / 1000 $$
 
-$$
-sensor_{ver} = Rc_{ver} * pixelsize / 1000
-$$
+$$ sensor_{ver} = Rc_{ver} * pixelsize / 1000 $$
 
 Hierbij zijn:
 
@@ -143,7 +139,7 @@ Hierbij zijn:
 Merk op dat er hier wel wordt van uitgegaan dat een pixel zowel horizontaal als verticaal even groot is.
 
 Voorbeeld:
-Een sensor met een resolutie van 640 x 480 en een pixelsize van 5um heeft dus een sensorgrootte van:
+Een sensor met een resolutie van `640 x 480` en een pixelsize van `5um` heeft dus een sensorgrootte van:
 \begin{align}
 sensor_{hor} = 640 * 5um = 3.2mm
 \end{align}
