@@ -25,3 +25,14 @@
 * Alper, G. (2013). 3-CCD Prism-Based Color Configuration. Opgehaald van http://info.adimec.com/blogposts/bid/98196/Bayer-Area-Scan-Color-Cameras-compared-to-3-CCD-Color-Cameras-part-1
 * Alper, G. (2013). Bayer Mosaic Color Filter Array Configuration. Opgehaald van http://info.adimec.com/blogposts/bid/98196/Bayer-Area-Scan-Color-Cameras-compared-to-3-CCD-Color-Cameras-part-1
 * Mv Mag (2013). Cognex In-Sight 7000. Opgehaald van http://machine-vision-mag.com/smartcamera/cognex-in-sight-7000-series-vision-system/
+* Digital Camera World. Wide-angle to telephoto. Opgehaald van http://www.techradar.com/how-to/photography-video-capture/cameras/free-cheat-sheet-what-your-camera-captures-at-every-lens-focal-length-1320953
+* Kumar, C. (2012). Rendering with Motion Blur in Maya. Opgehaald van https://cgi.tutsplus.com/tutorials/quick-tip-rendering-with-motion-blur-in-maya--cg-19263
+* Wikipedia. Chromatic aberration of a single lens. Opgehaald van https://en.wikipedia.org/wiki/Chromatic_aberration
+* Wikipedia. Spherical aberration. Opgehaald van https://en.wikipedia.org/wiki/Spherical_aberration
+* Industrial Cameras (2010). The variant CS-mount. Opgehaald van http://www.industrial-camera.com/c-mount-lens.htm
+* Wikipedia. Nikon F-mount. Opgehaald van https://en.wikipedia.org/wiki/Nikon_F-mount
+* Cognex. Bandpass filters. Opgehaald van http://www.qualitymag.com/articles/91565-use-optical-filtering-to-improve-machine-vision-repeatability
+* Cognex. Wall plug with and without polarizing filter. Opgehaald van http://www.qualitymag.com/articles/91565-use-optical-filtering-to-improve-machine-vision-repeatability
+* DPReview (2010). Extend the reach of your telephoto lens with Canon’s Extender EF 1.4x III and Extender EF 2x II. Opgehaald van https://www.dpreview.com/articles/7854501594/canonef14xiiief2xiii
+* Edmund Optics. Field of View comparison of a Conventional and Telecentric Lens. Opgehaald van http://www.edmundoptics.com/resources/application-notes/imaging/advantages-of-telecentricity/
+* VS Technology (2015). Telecentric Lens. Opgehaald van https://www.vst.co.jp/en/products/machinevision/lenses/telecetric-lenses/
