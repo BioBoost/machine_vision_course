@@ -1,6 +1,6 @@
 # Beeldverwerking
 
-\[INTRO - TODO\]
+_TODO_
 
 ## De verwerkingseenheid
 
