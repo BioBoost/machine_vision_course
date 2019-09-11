@@ -2,14 +2,11 @@
 
 # Inleiding
 
-Vandaag de dag zijn heel wat stappen binnen het productieproces geautomatiseerd.
-Dit gaat van aanvoering en materiaalbewerking tot assemblage. Een logische volgende
-stap is het automatiseren van de kwaliteitsbewaking. Dit kan worden verwezenlijkt
-aan de hand van machinevisie (machine vision). Deze automatisatiestap heeft een tijdje op zich laten wachten
-door het ontbreken van de noodzakelijke technologieën waaronder beeldsensoren en verwerkingseenheden.
+Vandaag de dag zijn heel wat stappen binnen het productieproces geautomatiseerd. Dit gaat van aanvoering en materiaalbewerking tot assemblage. Een logische volgende stap is het automatiseren van de kwaliteitsbewaking. Dit kan worden verwezenlijkt aan de hand van machinevisie (machine vision). Deze automatisatiestap heeft een tijdje op zich laten wachten door het ontbreken van de noodzakelijke technologieën waaronder beeldsensoren en verwerkingseenheden.
+
 De dag van vandaag is dit echter geen excuus meer.
 
-## Wat is machinevisie ?
+## Wat is machinevisie
 
 Wanneer er wordt gesproken over een visiesysteem (image processing system), dan wordt
 hiermee het omzetten van beelden naar informatie bedoeld. Deze informatie kan dan verder
@@ -22,9 +19,7 @@ van interactieve reclame, informatiekiosken in attractieparken, ...
 
 Wanneer wordt gesproken over machinevisie, dan houdt dit een visiesysteem in binnen een industriële context.
 
-![Machinevisie[^1]](img/machine_vision.gif)
-
-[^1]: Illumination Technologies Inc. Machine Vision. Opgehaald van http://www.illuminationtech.com
+![Machinevisie](img/machine_vision.gif)
 
 Enerzijds wordt machinevisie toegepast als kwaliteitscontroleorgaan binnen het productieproces.
 Terwijl inspectie in het verleden hoofdzakelijk door de mens gebeurde kan een
