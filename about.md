@@ -9,18 +9,18 @@ Deze cursus werd u aangeboden door Nico De Witte en Tommy Verbeerst als onderdee
 * Lector / Projectmedewerker aan de hogeschool
 * nico.dewitte@vives.be
 
-![Nico De Witte](img/nico_de_witte.png)
+![Nico De Witte](.gitbook/assets/nico_de_witte.png)
 
 ### Tommy Verbeerst
 
 * Lector / Projectmedewerker aan de hogeschool
 * tommy.verbeerst@vives.be
 
-![Tommy Verbeerst](img/tommy_verbeerst.png)
+![Tommy Verbeerst](.gitbook/assets/tommy_verbeerst.png)
 
 ### Martin Wylleman
 
 * Lector en opleidingshoofd aan de hogeschool
 * martin.wylleman@vives.be
 
-![Martin Wylleman](img/martin_wylleman.jpg)
+![Martin Wylleman](.gitbook/assets/martin_wylleman.jpg)

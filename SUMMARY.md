@@ -1,3 +1,15 @@
-# Summary
+# Table of contents
 
-* [Algemeen](README.md)
+* [Cursus](README.md)
+* [Introductie](introductie.md)
+* [Camera](camera.md)
+* [Lens](lens.md)
+* [Belichting](lighting.md)
+* [Beeldverwerking](image_processing.md)
+* [Communicatie](communication.md)
+
+----
+
+* [Over ons](about.md)
+* [Bibliografie](sources.md)
+* [Licentie](LICENSE.md)
