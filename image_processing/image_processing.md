@@ -209,7 +209,7 @@ Onderstaand beeld het resultaat van een opstelling voor het opmeten van de binne
 
 ![Opmeten van rondellen](img/measuring_washers.png)
 
-[TODO] Kunnen we hier geen voorbeeld geven van de cognex opstelling ?
+<!-- [TODO] Kunnen we hier geen voorbeeld geven van de cognex opstelling ? -->
 
 ### 2D kalibratie
 
