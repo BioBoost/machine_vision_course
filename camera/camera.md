@@ -124,9 +124,13 @@ Sensor Formaat      | H [mm]                | V [mm]        |    D [mm]
 
 Om de exacte afmetingen van de sensor te weten kan gebruik gemaakt worden van de resolutie en de pixelsize zoals aangegeven in volgende formules.
 
-$$ sensor_{hor} = Rc_{hor} * pixelsize / 1000 $$
+$$
+sensor_{hor} = Rc_{hor} * pixelsize / 1000
+$$
 
-$$ sensor_{ver} = Rc_{ver} * pixelsize / 1000 $$
+$$
+sensor_{ver} = Rc_{ver} * pixelsize / 1000
+$$
 
 Hierbij zijn:
 
@@ -140,16 +144,18 @@ Merk op dat er hier wel wordt van uitgegaan dat een pixel zowel horizontaal als 
 
 Voorbeeld:
 Een sensor met een resolutie van `640 x 480` en een pixelsize van `5um` heeft dus een sensorgrootte van:
-\begin{align}
+
+$$
 sensor_{hor} = 640 * 5um = 3.2mm
-\end{align}
-\begin{align}
+$$
+
+$$
 sensor_{ver} = 480 * 5um = 2.4mm
-\end{align}
+$$
 
 #### Area scan en line scan camera's
 
-De meest voorkomende sensoren zijn area scan sensoren die bestaan uit een matrix van pixels. Een area scan sensor heeft een aantal rijen \(Rc_{hor}\) van een aantal pixels \(Rc_{ver}\).
+De meest voorkomende sensoren zijn area scan sensoren die bestaan uit een matrix van pixels. Een area scan sensor heeft een aantal rijen $$Rc_{hor}$$ van een aantal pixels $$Rc_{ver}$$.
 
 Een linescan sensor bestaat uit een zeer beperkt aantal lijnen pixels (dikwijls zelfs maar 1 rij). Om een compleet beeld te genereren moet de sensor worden verplaatst of het te inspecteren object. Dit type sensor wordt vaak gebruikt voor het controleren van plaatmateriaal (ook wel web inspection genoemd), zoals bv: papier, textiel, glas, hout, ...
 
@@ -158,7 +164,6 @@ Een linescan sensor bestaat uit een zeer beperkt aantal lijnen pixels (dikwijls 
 [^7]: Teledyne DALSA (2013). Line scan illustration. Opgehaald van http://blog.teledynedalsa.com/2013/05/line-scan-cameras-for-web-inspection/
 
 Er kan al snel worden ingezien dat een linescan sensor een complexere opstelling vereist zowel hardwarematig als softwarematig.
-
 
 ### Kleur of monochroom
 
@@ -196,7 +201,6 @@ Deze twee nadelen leiden dan ook tot de conclusie dat het geen goed idee is om e
 
 De bitdiepte staat voor het aantal stappen tussen geen signaal (zwart) en maximaal signaal (wit). Dit is typisch tussen de 8 (256 stappen) en 16 bits (65.536 stappen), mede afhankelijk van de signaal-ruisverhouding van een sensor. Des te beter de signaal-ruisverhouding is, des te meer zin heeft het om een hogere bitdiepte te hebben.
 
-
 ## Het type camera
 
 ### Smart camera's en PC-based camera's
@@ -231,44 +235,44 @@ Indien een smart-camera wordt gebruikt en de beelden gearchiveerd dienen te word
 
 De combinatie van het fysische medium (de kabel en connectoren) en het transmissieprotocol wordt samengenomen onder de noemer interface. Onderstaande tabel geeft een overzicht van courant gebruikte interfaces met hun belangrijkste eigenschappen.
 
-
 | 		 								|	FireWire-b	|	GigE 		|	USB 2.0	 	|	USB 3.0		|	Camera Link		| CoaXPress 	|
-|-----------							|	-----------	|-----------	|	-----------	|	-----------	|	-----------		| ----------- 	|
-|**Bandbreedte**						|	80 MB/s		| 100MB/s 		|	40MB/s 		|	440MB/s 	|	680MB/s 		| 100MB/s - 3.1GB/s	|
-|**Kabellengte**						|	10m 		| 100m 			|	5m 			|	3m 			|	7-15m 			| 200m - 60m 		 	|
+|----------- | -----------	|-----------	|	-----------	|	-----------	|	-----------		| ----------- 	|
+|**Bandbreedte** |	80 MB/s		| 100MB/s 		|	40MB/s 		|	440MB/s 	|	680MB/s 		| 100MB/s - 3.1GB/s	|
+|**Kabellengte** |	10m 		| 100m 			|	5m 			|	3m 			|	7-15m 			| 200m - 60m 		 	|
 |**Voeding en data over zelfde kabel**	|	Ja			| Ja, PoE 		|	Ja 			|	Ja 			|	Ja, PoCL		| Ja		 	|
-|**Acceptatie**							|	Redelijk	| Heel goed 	|	Excellent	|	Excellent	|	Laag 			| Laag       	|
-|**Meerdere camera's**					|	Excellent	| Goed 			|	Redelijk 	|	Excellent	|	Redelijk		| ? 		 	|
-|**Camera controle standaard**			|	IIDC		| GigE Vision	|	geen 	 	|	USB3 Vision	|	Camera Link		| CoaXPress	 	|
-|**CPU gebruik**						|	Laag 		| Medium 		|	Hoog 		|	Laag 		|	Medium 			| ? 		 	|
-|**Totale kost**						|	Medium 		| Laag 	 		|	Laag 		|	Laag 		|	Hoog 			| Hoog 		 	|
-
+|**Acceptatie** |	Redelijk	| Heel goed 	|	Excellent	|	Excellent	|	Laag 			| Laag       	|
+|**Meerdere camera's** |	Excellent	| Goed 			|	Redelijk 	|	Excellent	|	Redelijk		| ? 		 	|
+|**Camera controle standaard** |	IIDC		| GigE Vision	|	geen 	 	|	USB3 Vision	|	Camera Link		| CoaXPress	 	|
+|**CPU gebruik** |	Laag 		| Medium 		|	Hoog 		|	Laag 		|	Medium 			| ? 		 	|
+|**Totale kost** |	Medium 		| Laag 	 		|	Laag 		|	Laag 		|	Hoog 			| Hoog 		 	|
 
 De bandbreedte noodzakelijk om de genomen beelden over te brengen van camera naar computer kan berekend worden aan de hand van onderstaande formule:
 
-\begin{align}
+$$
 BB = (Rc_{hor} * Rc_{ver} * f_r * PD) / (1024 * 1024)
-\end{align}
+$$
 
 Hierbij zijn:
 
-* \(BB\) de bandbreedte in MB/s
-* \(Rc_{hor}\) de horizontale resolutie van de sensor [pixels]
-* \(Rc_{ver}\) de verticale resolutie van de sensor  [pixels]
-* \(f_r\) de framerate (in geval van area scan) of de line frequentie (in geval van line scan)
-* \(PD\) de pixel depth (aantal bytes per pixel) [bytes]
+* $$BB$$ de bandbreedte in, uitgedrukt in `MB/s`
+* $$Rc_{hor}$$ de horizontale resolutie van de sensor, uitgedrukt in `pixels`
+* $$Rc_{ver}$$ de verticale resolutie van de sensor, uitgedrukt in `pixels`
+* $$f_r$$ de framerate (in geval van area scan) of de line frequentie (in geval van line scan), uitgedrukt in `frames/s`
+* $$PD$$ de pixel depth (aantal bytes per pixel), uitgedrukt in `bytes`
 
-Voorbeeld:
+### Voorbeeld:
+
 Een Basler acA1300-200um USB 3.0 camera met volgende specs:
 
-* \(Rc_{hor}\) = 1280 pixels
-* \(Rc_{ver}\) = 1024 pixels
-* \(f_r\) = 203 frames/s
-* \(PD\) = 1,2 bytes (10 bits)
+* $$Rc_{hor} = 1280 pixels$$
+* $$Rc_{ver} = 1024 pixels$$
+* $$f_r = 203 frames/s$$
+* $$PD = 1,2 bytes (10 bits)$$
 
 Resultaat:
-\begin{align}
+
+$$
 BB = (1280 * 1024 * 203 * 1,2) / (1024 * 1024) = 304,5MB/s
-\end{align}
+$$
 
 Dit valt dus inderdaad onder de maximale bandbreedte van USB3.
