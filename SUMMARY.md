@@ -10,7 +10,6 @@
 * [Belichting](lighting/lighting.md)
 * [Beeldverwerking](image_processing/image_processing.md)
 * [Communicatie](communication/communication.md)
-* [Concepten](concepts/concepts.md)
 
 ----
 
