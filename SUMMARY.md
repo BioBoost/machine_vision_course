@@ -12,12 +12,6 @@
 * [Communicatie](communication/communication.md)
 * [Concepten](concepts/concepts.md)
 
-### Oefeningen
-
-### Cases
-
-### Solutions
-
 ----
 
 * [Over ons](about.md)
