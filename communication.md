@@ -1,4 +1,4 @@
 # Communicatie
 
-\[TO BE EXPECTED - Needs work\]
+\[TO BE EXPECTED\]
 

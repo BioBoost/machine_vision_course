@@ -80,7 +80,7 @@ Hybride programmeeromgevingen zoals MVTec HALCON laten toe om te programmeren in
 
 Een machinevisie applicatie bestaat typisch uit een aantal verschillende stappen. Zo moet het beeld eerst worden binnengenomen. Vervolgens moet het te inspecteren object worden gelokaliseerd waarna de eigenlijke inspectie kan plaatsvinden. Als laatste moet er dan een beslissing worden genomen en moet dit resultaat worden gecommuniceerd \(visueel of hardwarematig\).
 
-![Het inspectieproces](.gitbook/assets/inspection_process.png)
+![Het inspectieproces](.gitbook/assets/inspection_process%20%281%29.png)
 
 De eigenlijke implementatie hiervan hangt hoofdzakelijk af van de gebruikte programmeertaal en/of programmeeromgeving. Toch zijn er aantal tools en functies die in vele visie ontwikkelomgevingen terug te vinden zijn.
 
