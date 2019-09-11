@@ -155,7 +155,6 @@ Dit type belichting wordt veel gebruikt om krassen en scheuren in oppervlakten w
 
 ![Bright field en dark field belichting](img/bright_field_dark_field.png)
 
-
 ### Bar light
 
 Bar lights genereren een intense en uniform lijn licht. Deze worden typisch toegepast in combinatie met een line-scan camera.
@@ -185,7 +184,6 @@ Voor het belichten van het object kan men er worden gekozen tussen continue, pul
 * **Strobe verlichting**: wordt gebruikt om bewegingsonscherpte te voorkomen, analoog met de belichtingstijd.
 
 ![Van boven naar beneden: continue, pulserende en strobe verlichting](img/continuous_pulsed_strobe_light.png)
-
 
 ## Polariserende filters
 
