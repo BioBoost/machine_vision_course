@@ -1,34 +1,24 @@
 # Over ons
 
-Deze cursus werd u aangeboden door Nico De Witte, Sille Van Landschoot en Franky Loret als onderdeel van het PWO project Machinevisie door VIVES Hogeschool Oostende / Brugge onder leiding van Martin Wylleman.
+Deze cursus werd u aangeboden door Nico De Witte en Tommy Verbeerst als onderdeel van het PWO project Machinevisie door de VIVES Hogeschool Campus Brugge onder leiding van Martin Wylleman.
 
 ## Onze gegevens
 
-** Nico De Witte **
+### Nico De Witte
 
 * Lector / Projectmedewerker aan de hogeschool
 * nico.dewitte@vives.be
 
 ![Nico De Witte](img/nico_de_witte.png)
 
+### Tommy Verbeerst
 
-** Sille Van Landschoot **
+* Lector / Projectmedewerker aan de hogeschool
+* tommy.verbeerst@vives.be
 
-* Lector aan de hogeschool
-* sille.vanlandschoot@vives.be
+![Tommy Verbeerst](img/tommy_verbeerst.png)
 
-![Sille Van Landschoot](img/sille_van_landschoot.jpg)
-
-
-** Franky Loret **
-
-* Lector aan de hogeschool
-* franky.loret@vives.be
-
-![Franky Loret](img/franky_loret.jpg)
-
-
-** Martin Wylleman **
+### Martin Wylleman
 
 * Lector en opleidingshoofd aan de hogeschool
 * martin.wylleman@vives.be
