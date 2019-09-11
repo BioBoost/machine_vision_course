@@ -8,31 +8,21 @@ De dag van vandaag is dit echter geen excuus meer.
 
 ## Wat is machinevisie
 
-Wanneer er wordt gesproken over een visiesysteem (image processing system), dan wordt
-hiermee het omzetten van beelden naar informatie bedoeld. Deze informatie kan dan verder
-worden gebruikt om een proces te sturen of een analyse te maken van de huidige situatie.
+Wanneer er wordt gesproken over een visiesysteem (image processing system), dan wordt hiermee het omzetten van beelden naar informatie bedoeld. Deze informatie kan dan verder worden gebruikt om een proces te sturen of een analyse te maken van de huidige situatie.
 
-Een visiesysteem is een term die alle noodzakelijke componenten omvat om beelden te maken en te verwerken.
-Visiesystemen worden reeds jaren toegepast in de context van beveiliging, ontspanning, ... Denk hierbij
-aan infotainment (samentrekking van Information en Entertainment), informatiesystemen ten dienste
-van interactieve reclame, informatiekiosken in attractieparken, ...
+Een visiesysteem is een term die alle noodzakelijke componenten omvat om beelden te maken en te verwerken. Visiesystemen worden reeds jaren toegepast in de context van beveiliging, ontspanning, ... Denk hierbij aan infotainment (samentrekking van Information en Entertainment), informatiesystemen ten dienste van interactieve reclame, informatiekiosken in attractieparken, ...
 
 Wanneer wordt gesproken over machinevisie, dan houdt dit een visiesysteem in binnen een industriële context.
 
 ![Machinevisie](img/machine_vision.gif)
 
-Enerzijds wordt machinevisie toegepast als kwaliteitscontroleorgaan binnen het productieproces.
-Terwijl inspectie in het verleden hoofdzakelijk door de mens gebeurde kan een
-machinevisiesysteem dit de dag van vandaag sneller, consistenter en objectiever.
-Een visiesysteem werkt op het ritme van de productie en is onvermoeibaar.
+Enerzijds wordt machinevisie toegepast als kwaliteitscontroleorgaan binnen het productieproces. Terwijl inspectie in het verleden hoofdzakelijk door de mens gebeurde kan een machinevisiesysteem dit de dag van vandaag sneller, consistenter en objectiever. Een visiesysteem werkt op het ritme van de productie en is onvermoeibaar.
 
-Anderzijds vindt machinevisie zijn plaats binnen de materiaalhantering (material handling).
-Hierbij gaat het om geautomatiseerd opnemen en afleggen van onderdelen, waarbij het visiesysteem
-instaat voor het leveren van de locatie en oriëntatie van de stukken.
+Anderzijds vindt machinevisie zijn plaats binnen de materiaalhantering (material handling). Hierbij gaat het om  geautomatiseerd opnemen en afleggen van onderdelen, waarbij het visiesysteem instaat voor het leveren van de locatie en oriëntatie van de stukken.
 
 Machinevisie laat dus toe het productieproces verder te automatiseren en te optimaliseren.
 
-## Waarom machinevisie gebruiken ?
+## Waarom machinevisie gebruiken
 
 Machinevisie kan het aantal defecten verlagen. Dit betekent ook dat minder defecte onderdelen de fabriek verlaten naar de klant met als gevolg meer tevreden klanten. Ook het aantal producten dat achteraf terug wordt geroepen kan hierdoor dalen.
 
@@ -46,9 +36,7 @@ De kwaliteit van producten die moeten voldoen aan bepaalde strikte wetgevingen (
 
 Ten opzicht van inspectie door een persoon, heeft machinevisie het voordeel dat het sneller, consistenter en onvermoeibaar is. Zo zijn er reeds machinevisie inspectiesystemen die meer dan 1000 objecten per minuut inspecteren. Daarnaast zal de software nooit de regels buigen naar zijn eigen wil. Elk beeld zal hetzelfde worden verwerkt. Machines zijn ook perfect voor het uitvoeren van repetitieve taken, terwijl mensen beter kunnen worden ingezet voor andere taken.
 
-![Inspectie door persoon[^2]](img/human_inspection.png)
-
-[^2]: Tom Parker/OneRedEye. Human inspection of defective finishes. Opgehaald van http://graphene.limited/deep-dive-into-technology-2/glass-empty-bottle-inspecto/finish-inspection-crown.html
+![Inspectie door persoon(img/human_inspection.png)
 
 ## Toepassingen van machinevisie
 
@@ -76,7 +64,6 @@ Bij foutdetectie applicaties wordt hoofdzakelijk gekeken naar abnormale afwijkin
 
 De plaats van deze defecten zijn willekeurig. Vandaar dat de visie applicatie meestal het volledige oppervlak moet inspecteren. Er wordt hierbij gekeken naar bv. textuur en kleur. In bepaalde gevallen is het mogelijk een vergelijking te maken met een template.
 
-
 Een aantal voorbeelden die binnen deze categorie vallen zijn:
 
 * controle op scheuren in geplakte labels
@@ -85,9 +72,7 @@ Een aantal voorbeelden die binnen deze categorie vallen zijn:
 * nazicht of metalen platen geen deuken bevatten
 * ...
 
-![Samenstelling van laminaat[^3]](img/laminate-floor-cutaway.gif)
-
-[^3]: How Stuff Works (2009). How Laminate Floors Work. Opgehaald van http://home.howstuffworks.com/home-improvement/home-diy/flooring/laminate-floor1.htm
+![Samenstelling van laminaat(img/laminate-floor-cutaway.gif)
 
 Dit type defecten zijn dikwijls ook heel moeilijk zichtbaar met het blote oog.
 
@@ -95,8 +80,13 @@ Dit type defecten zijn dikwijls ook heel moeilijk zichtbaar met het blote oog.
 
 Nagaan of het geproduceerd product binnen de tolerantiegrenzen valt is een veel gebruikte toepassing van machinevisie. De resolutie, de belichting en de kwaliteit van het beeld bepalen hier hoofdzakelijk de nauwkeurigheid van de meting. Als één van deze onderdelen ondermaats functioneert zal de kwaliteit van de meting snel achteruit gaan. Het is heel belangrijk dat een meting accuraat en reproduceerbaar is.
 
-!!! note "Subpixel interpolatie"
-	Sommige softwarepakketten zoals Halcon voorzien bijvoorbeeld subpixel nauwkeurigheid (softwarematige interpolatie tussen de echte pixels om bv. de overgang van licht naar donker exacter te bepalen of om een exactere positiebepaling te doen voor een meting).  
+{% hint style="info" %}
+
+**Subpixel interpolatie**
+
+Sommige softwarepakketten zoals Halcon voorzien bijvoorbeeld subpixel nauwkeurigheid (softwarematige interpolatie tussen de echte pixels om bv. de overgang van licht naar donker exacter te bepalen of om een exactere positiebepaling te doen voor een meting).  
+
+{% endhint %}
 
 Een aantal voorbeelden die binnen deze categorie vallen zijn:
 
