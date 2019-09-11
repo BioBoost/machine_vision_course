@@ -199,7 +199,6 @@ Door naar de oppervlakte van de blobs en hun vorm te kijken kunnen de verschille
 
 Het grote voordeel van dit type analyse is dat dit simpele en dus snelle operaties zijn. In tegenstelling tot patroonherkenning dat een stuk trager is en sterk afhankelijk is van de complexiteit van de patronen.
 
-
 ### Meten
 
 Meten is een van de meest gebruikte applicatievormen in de machinevisie sector. Machinevisie laat toe om dezelfde metingen uit te voeren als met de hand kunnen worden gedaan. De nauwkeurigheid hangt echter wel sterk af van de gebruikte hardware en de kwaliteit van het beeld.
