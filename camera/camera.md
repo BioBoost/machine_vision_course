@@ -2,11 +2,9 @@
 
 # Camera
 
-De camera is een essentieel onderdeel van elke machinevisie opstelling. Het legt een beeld
-vast dat vervolgens door beeldverwerkingssoftware kan worden geanalyseerd en verwerkt.
+De camera is een essentieel onderdeel van elke machinevisie opstelling. Het legt een beeld vast dat vervolgens door beeldverwerkingssoftware kan worden geanalyseerd en verwerkt.
 
-Bij het selecteren van de camera zijn er een aantal eigenschappen die belangrijk zijn
-voor het samenstellen van een machinevisie opstelling. Dit houdt onder andere in de:
+Bij het selecteren van de camera zijn er een aantal eigenschappen die belangrijk zijn voor het samenstellen van een machinevisie opstelling. Dit houdt onder andere in de:
 
 * eigenschappen van de sensor,
 * eigenschappen van de camera zelf
@@ -14,10 +12,7 @@ voor het samenstellen van een machinevisie opstelling. Dit houdt onder andere in
 
 ## De sensor
 
-De sensor is het camera onderdeel waar het werkelijk beeld wordt op
-geprojecteerd. Een camerasensor is hoofdzakelijk opgebouwd uit kleine lichtgevoelige
-pixels die licht omzetten in spanning of stroom. Op deze manier kan een beeld worden
-omgezet in een digitale representatie die verder kan worden verwerkt door beeldverwerkingssoftware.
+De sensor is het camera onderdeel waar het werkelijk beeld wordt op geprojecteerd. Een camerasensor is hoofdzakelijk opgebouwd uit kleine lichtgevoelige pixels die licht omzetten in spanning of stroom. Op deze manier kan een beeld worden omgezet in een digitale representatie die verder kan worden verwerkt door beeldverwerkingssoftware.
 
 De belangrijkste eigenschappen van een sensor zijn:
 
@@ -26,33 +21,23 @@ De belangrijkste eigenschappen van een sensor zijn:
 * het aantal pixels,
 * en de grootte van de pixels.
 
-
 ### Golflengte
 
-Zichtbaar licht is elektromagnetische straling in het frequentiebereik dat waarneembaar is met het menselijk oog.
-Bij licht spreekt men meestal over de golflengte in vacuüm en lucht die bij een frequentie hoort,
-omdat in de meeste toepassingen met golflengten gewerkt wordt.
-De golflengte is, anders dan de frequentie, afhankelijk van de stof waar de straling doorloopt.
-Het zichtbare spectrum strekt zich uit over golflengten van ongeveer 380 nm (violet) tot 780 nm (rood).
+Zichtbaar licht is elektromagnetische straling in het frequentiebereik dat waarneembaar is met het menselijk oog. Bij licht spreekt men meestal over de golflengte in vacuüm en lucht die bij een frequentie hoort, omdat in de meeste toepassingen met golflengten gewerkt wordt. De golflengte is, anders dan de frequentie, afhankelijk van de stof waar de straling doorloopt. Het zichtbare spectrum strekt zich uit over golflengten van ongeveer 380 nm (violet) tot 780 nm (rood).
 
-![Het zichtbaar spectrum[^1]](img/visible_spectrum.jpg)
-
-[^1]: (2012). Visible spectrum. Opgehaald van http://atomicpuke.com/?page_id=54
+![Het zichtbaar spectrum](img/visible_spectrum.jpg)
 
 De drie eigenschappen die licht beschrijven, zijn de lichtsterkte (amplitude), de kleur (frequentie of golflengte) en de polarisatie (trillingsrichting).
 
 Verschillende sensoren bestaan die ofwel gevoelig zijn voor het zichtbaar spectrum (400nm tot 700nm), het NEAR-InfraRed (NIR) spectrum (700nm tot 1000nm), het UV-spectrum (onder de 400nm) of het IR-spectrum (900nm tot 1700nm).
 
-![Gevoeligheid van de sensor[^2]](img/sensor_sensitivity.jpg)
-
-[^2]: Stemmer Imaging
+![Gevoeligheid van de sensor](img/sensor_sensitivity.jpg)
 
 In deze cursus zal de focus liggen op sensoren die gevoelig zijn voor licht binnen het zichtbaar spectrum.
 
 ### Halfgeleidertechnologie - CCD en CMOS
 
-Pixels zijn kleine lichtgevoelige receptoren die het oppervlak van de sensor bezetten. In een pixel worden de fotonen die
-worden opgevangen omgezet naar een spanning om zo verder te verwerken.
+Pixels zijn kleine lichtgevoelige receptoren die het oppervlak van de sensor bezetten. In een pixel worden de fotonen die worden opgevangen omgezet naar een spanning om zo verder te verwerken.
 
 Er zijn hierbij twee halfgeleidertechnologieën die het meest gebruikt worden voor het opbouwen van een camerasensor, namelijk CCD (Charge Coupled Device) en CMOS (Complementary Metal Oxide Semiconductor). Elke technologie heeft zo zijn voor- en nadelen. De eerste digitale camera's maakten gebruik van CCD.
 
@@ -62,10 +47,7 @@ In een CMOS sensor heeft elke pixel zijn eigen lading-naar-spanningsconversie sc
 
 CMOS technologie beloofde energie-efficiënter te zijn dan CCD en net daarom heeft de technologie een grote stap voorwaarts gemaakt door de enorme investeringen door telefoonfabrikanten.
 
-![CCD versus CMOS[^3]](img/ccd_versus_cmos.jpg)
-
-[^3]: Meroli, S. (2012). CCD vs CMOS. Opgehaald van http://meroli.web.cern.ch/meroli/lecture_cmos_vs_ccd_pixel_sensor.html
-
+![CCD versus CMOS](img/ccd_versus_cmos.jpg)
 
 Eigenschap              | CCD               | CMOS
 ------------            | -------------     | ------------
@@ -76,10 +58,7 @@ Spectrale gevoeligheid  | 400 – 1100 nm     | 400 – 1100nm
 Piek gevoeligheid       | 500 nm (groen)    | 650 nm (rood)
 Dode pixels             | Weinig            | Veel
 
-![Sensor fill factor[^4]](img/camera_sensor_fill_factor.jpg)
-
-[^4]: Brawley, J. (2012). Image Sensor Architectures for Digital Cinematography. Opgehaald van https://johnbrawley.files.wordpress.com/2012/09/fill-factor.jpg
-
+![Sensor fill factor](img/camera_sensor_fill_factor.jpg)
 
 Toepassing              | CCD               | CMOS
 ------------            | -------------     | ------------
@@ -92,17 +71,13 @@ Kleuren                 | ++                | -/+
 
 Bij CCD zijn er twee manieren om een beeld uit de sensor te lezen. Enerzijds is er progressieve scan en anderzijds interlaced scan. Bij progressieve scan wordt de volledige sensor actief en wordt het beeld in één keer uitgelezen. Bij interlaced scan worden de ene keer de even rijen uitgelezen en de andere keer de oneven rijen. De voordelen van deze laatste techniek zijn dat de noodzakelijke dataoverdracht halveert en de gevoeligheid vergroot, anderzijds ontstaat het nadelig kameffect bij bewegende objecten, zoals te zien in onderstaande figuur.
 
-![Kameffect bij interlaced scan[^5]](img/interlaced_versus_progressive_scan.jpg)
-
-[^5]: ApexCCTV. Interlaced versus Progressive Scan. Opgehaald van http://www.apexcctv.com/p-1341-geovision-bx320de-3mp-ir-artic-box-ip-camera.aspx
+![Kameffect bij interlaced scan](img/interlaced_versus_progressive_scan.jpg)
 
 #### Global en rolling shutter
 
 Bij CMOS wordt er ook gesproken van global en rolling shutter. Dit heeft betrekking tot welke pixels actief zijn gedurende een bepaalde tijd. Zo zijn bij global shutter alle pixels actief, terwijl bij rolling shutter de pixels rij per rij actief worden. Deze laatste zorgt voor een parallelle vervorming bij bewegende objecten zoals te zien is in onderstaande figuur.
 
-![Global en rolling shutter[^6]](img/global_rolling_shutter.png)
-
-[^6]: (2013). Global shutter VS rolling shutter. Opgehaald van http://www.digitalbolex.com/global-shutter/
+![Global en rolling shutter](img/global_rolling_shutter.png)
 
 ### Sensorafmetingen en aantal pixels
 
@@ -122,7 +97,7 @@ Sensor Formaat      | H [mm]                | V [mm]        |    D [mm]
 
 ![Veelvoorkomende formaten van sensoren](img/sensor_size.png)
 
-Om de exacte afmetingen van de sensor te weten kan gebruik gemaakt worden van de resolutie en de pixelsize zoals aangegeven in volgende formules.
+Om de exacte afmetingen van de sensor te weten kan gebruik gemaakt worden van de `resolutie` en de `pixelsize` zoals aangegeven in volgende formules.
 
 $$
 sensor_{hor} = Rc_{hor} * pixelsize / 1000
@@ -142,7 +117,8 @@ Hierbij zijn:
 
 Merk op dat er hier wel wordt van uitgegaan dat een pixel zowel horizontaal als verticaal even groot is.
 
-Voorbeeld:
+#### Voorbeeld
+
 Een sensor met een resolutie van `640 x 480` en een pixelsize van `5um` heeft dus een sensorgrootte van:
 
 $$
@@ -159,9 +135,7 @@ De meest voorkomende sensoren zijn area scan sensoren die bestaan uit een matrix
 
 Een linescan sensor bestaat uit een zeer beperkt aantal lijnen pixels (dikwijls zelfs maar 1 rij). Om een compleet beeld te genereren moet de sensor worden verplaatst of het te inspecteren object. Dit type sensor wordt vaak gebruikt voor het controleren van plaatmateriaal (ook wel web inspection genoemd), zoals bv: papier, textiel, glas, hout, ...
 
-![Line scan en area scan camera[^7]](img/line_area_scan.jpg)
-
-[^7]: Teledyne DALSA (2013). Line scan illustration. Opgehaald van http://blog.teledynedalsa.com/2013/05/line-scan-cameras-for-web-inspection/
+![Line scan en area scan camera](img/line_area_scan.jpg)
 
 Er kan al snel worden ingezien dat een linescan sensor een complexere opstelling vereist zowel hardwarematig als softwarematig.
 
@@ -177,9 +151,7 @@ Wanneer er toch nood is aan kleurinformatie, dan moet voor elke pixel de waarde 
 
 De oplossing met 3-CCD sensoren is echter complex en duur maar wel noodzakelijk indien men precieze kleurinformatie wil. Er wordt hier gebruik gemaakt van een aantal prisma's om het licht in zijn 3 kleurcomponenten op te splitsen en af te leiden naar verschillende sensoren. Onderstaande figuur geeft een schets terug van dit principe.
 
-![3-CCD kleurensensor[^8]](img/3-ccd.png)
-
-[^8]: Alper, G. (2013). 3-CCD Prism-Based Color Configuration. Opgehaald van http://info.adimec.com/blogposts/bid/98196/Bayer-Area-Scan-Color-Cameras-compared-to-3-CCD-Color-Cameras-part-1
+![3-CCD kleurensensor](img/3-ccd.png)
 
 #### Bayer-filter
 
@@ -187,9 +159,7 @@ In de praktijk wordt meestal gebruik gemaakt van sensoren met een Bayer-filter (
 
 Om de waarden van de ontbrekende informatie te verkrijgen wordt gekeken naar de buurpixels. Het gemiddelde van de omringende waarden die ontbreken voor een pixel wordt genomen en toegekend aan die pixel. Er worden zo 3 waarden verkregen waarvan één "correct" is en 2 andere een benadering. Dit proces noemt men dan ook debayering en kan door de camera worden uitgevoerd of door een PC.
 
-![Bayer-filter voor een kleurensensor[^9]](img/1-ccd-and-bayer-color.png)
-
-[^9]: Alper, G. (2013). Bayer Mosaic Color Filter Array Configuration. Opgehaald van http://info.adimec.com/blogposts/bid/98196/Bayer-Area-Scan-Color-Cameras-compared-to-3-CCD-Color-Cameras-part-1
+![Bayer-filter voor een kleurensensor](img/1-ccd-and-bayer-color.png)
 
 Een Bayer-filter bestaat uit afwisselende rijen van rood-groen en groen-blauwe filters. Merk op dat het Bayer-filter twee keer zo zoveel groene als rode of blauwe filters bevat. Elke primaire kleur ontvangt geen gelijke fractie van het ingevallen licht. Dit om het menselijk oog te evenaren, wat gevoeliger is voor groen licht dan voor zowel rood als blauw licht.
 
@@ -207,9 +177,7 @@ De bitdiepte staat voor het aantal stappen tussen geen signaal (zwart) en maxima
 
 Een smart camera heeft zowel een camera, geheugen, CPU als I/O aan boord. Deze camera kan volledig op zich werken en heeft geen externe PC nodig om de beelden te verwerken (eventueel wel om ze te archiveren).
 
-![Smart camera's van het merk Cognex[^10]](img/smart_camera_cognex.jpg)
-
-[^10]: Mv Mag (2013). Cognex In-Sight 7000. Opgehaald van http://machine-vision-mag.com/smartcamera/cognex-in-sight-7000-series-vision-system/
+![Smart camera's van het merk Cognex](img/smart_camera_cognex.jpg)
 
 Bij een PC-based systeem wordt een niet-intelligente machinevisie camera gebruikt die wordt gekoppeld aan een computer of embedded systeem. De beelden worden na elke captatie overgezet van de camera naar de computer om daar verder te verwerken. Dit type camera kan wel reeds een aantal preprocessing bewerkingen uitvoeren zoals (meestal aan de hand van een interne FPGA):
 
