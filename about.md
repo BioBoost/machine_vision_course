@@ -24,4 +24,3 @@ Deze cursus werd u aangeboden door Nico De Witte en Tommy Verbeerst als onderdee
 * martin.wylleman@vives.be
 
 ![Martin Wylleman](.gitbook/assets/martin_wylleman.jpg)
-
