@@ -135,10 +135,10 @@ $$
 Hierbij zijn:
 
 * $$sensor_{hor}$$ de horizontale sensorgrootte, uitgedrukt in `mm`
-* \(sensor_{ver}\) de verticale sensorgrootte, uitgedrukt in `mm`
-* \(Rc_{hor}\) de horizontale resolutie van de sensor, uitgedrukt in `pixels`
-* \(Rc_{ver}\) de verticale resolutie van de sensor, uitgedrukt in `pixels`
-* \(pixelsize\) de grootte van een pixel, uitgedrukt in `um/pixel`
+* $$sensor_{ver}$$ de verticale sensorgrootte, uitgedrukt in `mm`
+* $$Rc_{hor}$$ de horizontale resolutie van de sensor, uitgedrukt in `pixels`
+* $$Rc_{ver}$$ de verticale resolutie van de sensor, uitgedrukt in `pixels`
+* $$pixelsize$$ de grootte van een pixel, uitgedrukt in `um/pixel`
 
 Merk op dat er hier wel wordt van uitgegaan dat een pixel zowel horizontaal als verticaal even groot is.
 
