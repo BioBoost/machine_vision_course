@@ -14,6 +14,18 @@
 
 ----
 
+### Over ons
+
 * [Over ons](about.md)
+
+----
+
+### Bibliografie
+
 * [Bibliografie](sources.md)
-* [License](LICENSE.md)
+
+----
+
+### Licentie
+
+* [Licentie](LICENSE.md)
