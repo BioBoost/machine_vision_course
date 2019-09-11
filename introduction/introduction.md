@@ -36,7 +36,7 @@ De kwaliteit van producten die moeten voldoen aan bepaalde strikte wetgevingen (
 
 Ten opzicht van inspectie door een persoon, heeft machinevisie het voordeel dat het sneller, consistenter en onvermoeibaar is. Zo zijn er reeds machinevisie inspectiesystemen die meer dan 1000 objecten per minuut inspecteren. Daarnaast zal de software nooit de regels buigen naar zijn eigen wil. Elk beeld zal hetzelfde worden verwerkt. Machines zijn ook perfect voor het uitvoeren van repetitieve taken, terwijl mensen beter kunnen worden ingezet voor andere taken.
 
-![Inspectie door persoon(img/human_inspection.png)
+![Inspectie door persoon](img/human_inspection.png)
 
 ## Toepassingen van machinevisie
 
@@ -72,7 +72,7 @@ Een aantal voorbeelden die binnen deze categorie vallen zijn:
 * nazicht of metalen platen geen deuken bevatten
 * ...
 
-![Samenstelling van laminaat(img/laminate-floor-cutaway.gif)
+![Samenstelling van laminaat](img/laminate-floor-cutaway.gif)
 
 Dit type defecten zijn dikwijls ook heel moeilijk zichtbaar met het blote oog.
 
@@ -81,11 +81,9 @@ Dit type defecten zijn dikwijls ook heel moeilijk zichtbaar met het blote oog.
 Nagaan of het geproduceerd product binnen de tolerantiegrenzen valt is een veel gebruikte toepassing van machinevisie. De resolutie, de belichting en de kwaliteit van het beeld bepalen hier hoofdzakelijk de nauwkeurigheid van de meting. Als één van deze onderdelen ondermaats functioneert zal de kwaliteit van de meting snel achteruit gaan. Het is heel belangrijk dat een meting accuraat en reproduceerbaar is.
 
 {% hint style="info" %}
-
 **Subpixel interpolatie**
 
 Sommige softwarepakketten zoals Halcon voorzien bijvoorbeeld subpixel nauwkeurigheid (softwarematige interpolatie tussen de echte pixels om bv. de overgang van licht naar donker exacter te bepalen of om een exactere positiebepaling te doen voor een meting).  
-
 {% endhint %}
 
 Een aantal voorbeelden die binnen deze categorie vallen zijn:
@@ -94,9 +92,7 @@ Een aantal voorbeelden die binnen deze categorie vallen zijn:
 * opmeten van de draaddiameter van bouten
 * ...
 
-![Opmeten van de draaddiameter van bouten[^4]](img/example_measure_bolt.jpg)
-
-[^4]: Decision Technology, LLC. Non-Contact Measurement and Inspection Tool for Bolt Threads. Opgehaald van http://www.visionintegrator.com/vision-technology-case-study7.htm
+![Opmeten van de draaddiameter van bouten](img/example_measure_bolt.jpg)
 
 ### Identificatie
 
@@ -110,13 +106,9 @@ Dit systeem kan bijvoorbeeld ook gebruikt worden bij pick-and-place robots om de
 
 Machinevisie kan tevens gebruikt worden om de locatie en rotatie van objecten te bepalen die bijvoorbeeld los op een transportband liggen. Deze coördinaten kunnen dan bijvoorbeeld aan een pick-and-place robot worden doorgegeven zodat de stukken correct kunnen worden gegrepen en verplaatst.
 
-![Locatiebepaling object op transportband[^5]](img/location_conveyor.jpg)
+![Locatiebepaling object op transportband](img/location_conveyor.jpg)
 
-[^5]: Cubic Machinery, Inc. Safely Palletizing products with humans working closely. Opgehaald van http://www.cubicautomation.com/solutions
-
-![Pick-and-place met machinevisie[^6]](img/pick_and_place.jpg)
-
-[^6]: Carroll, J. (2014). 3D pattern matching. Opgehaald van http://www.vision-systems.com/articles/2014/09/tips-for-2d-and-3d-pattern-matching-in-machine-vision-applications.html
+![Pick-and-place met machinevisie](img/pick_and_place.jpg)
 
 ## Een typische machinevisie opstelling
 
@@ -128,17 +120,11 @@ Een machinevisiesysteem, zoals weergegeven in volgende figuur, bestaat typisch u
 * **een verwerkingseenheid** die de beelden analyseert en verwerkt. Dit kan een computer, een embedded systeem of de camera zelf zijn (smart-camera);
 * en **een display** of **HMI** (Human Machine Interface) dat instaat voor de interactie met de operator.
 
-![Een typisch machinevisiesysteem[^7]](img/machine_vision_setup.png)
+![Een typisch machinevisiesysteem](img/machine_vision_setup.png)
 
-[^7]: Reference lost
+Afhankelijk van de applicatie zijn er ook nog andere componenten noodzakelijk. In geval van een kwaliteitscontrole zal er eveneens een selectieorgaan moeten worden voorzien. Wanneer het visiesysteem concludeert dat een bepaald stuk niet aan de vooropgestelde eisen voldoet kan het op deze manier uit de productie worden gefilterd.
 
-Afhankelijk van de applicatie zijn er ook nog andere componenten noodzakelijk.
-In geval van een kwaliteitscontrole zal er eveneens een selectieorgaan moeten worden voorzien.
-Wanneer het visiesysteem concludeert dat een bepaald stuk niet aan de vooropgestelde eisen
-voldoet kan het op deze manier uit de productie worden gefilterd.
-
-Als het visiesysteem dienst doet als locatie en positiebepaler van stukken die moeten
-worden opgenomen en verplaatst of gemonteerd, dan is er ook nood aan een pick-and-place installatie.
+Als het visiesysteem dienst doet als locatie en positiebepaler van stukken die moeten worden opgenomen en verplaatst of gemonteerd, dan is er ook nood aan een pick-and-place installatie.
 
 ## Het inspectieproces
 
