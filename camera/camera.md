@@ -134,7 +134,7 @@ $$
 
 Hierbij zijn:
 
-* $`sensor_{hor}`$ de horizontale sensorgrootte, uitgedrukt in `mm`
+* $$sensor_{hor}$$ de horizontale sensorgrootte, uitgedrukt in `mm`
 * \(sensor_{ver}\) de verticale sensorgrootte, uitgedrukt in `mm`
 * \(Rc_{hor}\) de horizontale resolutie van de sensor, uitgedrukt in `pixels`
 * \(Rc_{ver}\) de verticale resolutie van de sensor, uitgedrukt in `pixels`
