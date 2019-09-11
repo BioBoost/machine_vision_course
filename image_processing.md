@@ -80,7 +80,7 @@ Hybride programmeeromgevingen zoals MVTec HALCON laten toe om te programmeren in
 
 Een machinevisie applicatie bestaat typisch uit een aantal verschillende stappen. Zo moet het beeld eerst worden binnengenomen. Vervolgens moet het te inspecteren object worden gelokaliseerd waarna de eigenlijke inspectie kan plaatsvinden. Als laatste moet er dan een beslissing worden genomen en moet dit resultaat worden gecommuniceerd \(visueel of hardwarematig\).
 
-![Het inspectieproces](.gitbook/assets/inspection_process%20%281%29.png)
+![Het inspectieproces](.gitbook/assets/inspection_process%20%282%29.png)
 
 De eigenlijke implementatie hiervan hangt hoofdzakelijk af van de gebruikte programmeertaal en/of programmeeromgeving. Toch zijn er aantal tools en functies die in vele visie ontwikkelomgevingen terug te vinden zijn.
 
@@ -98,7 +98,7 @@ Een **Region of Interest of ROI** is een stuk van het origineel beeld waarop we 
 
 Onderstaand beeld geeft een voorbeeld waar de ROI werd ingesteld op een aantal gaten van een connector. Enkel deze bevinden zich dicht genoeg bij het center van de camera om ze te kunnen opmeten zonder sterke vervorming. Enkel de gaten in de ROI worden geïnspecteerd.
 
-![Een beeld van een connector met beperkte ROI](.gitbook/assets/connector_roi.png)
+![Een beeld van een connector met beperkte ROI](.gitbook/assets/connector_roi%20%281%29.png)
 
 Een **kernel**, ook een convolutiematrix of masker genaamd, is een kleine matrix bruikbaar voor het vervagen, verscherpen, in reliëf plaatsen, randdetectie, en nog veel meer. Dit wordt gerealiseerd door middel van een convolutie tussen een kernel en een afbeelding. De kernel heeft meestal een specifieke vorm zoals een rechthoek, een ellips of een kruis.
 
@@ -110,7 +110,7 @@ Ruisonderdrukkingsfilters worden heel dikwijls toegepast vooraleer het beeld ver
 
 Onderstaande figuur toont het origineel beeld van een pinconnector dat werd genomen \(links\) en daarna werd bewerkt met een ruisonderdrukkingsfilter \(rechts\).
 
-![Een ruisonderdrukkingsfilter - links origineel, rechts gefilterd](.gitbook/assets/smoothing_filter.png)
+![Een ruisonderdrukkingsfilter - links origineel, rechts gefilterd](.gitbook/assets/smoothing_filter%20%281%29.png)
 
 Onderstaand een voorbeeld van een randdetectie filter.
 
@@ -138,7 +138,7 @@ Door pixels op te splitsen \(splitting\) kunnen blobs die elkaar niet raken word
 
 Onderstaand een voorbeeld van een beeld dat na een thresholding werd bekomen. Ook al lijkt dit beeld voor ons te bestaan uit verschillende delen, toch is dit softwarematig maar 1 enkel object. Door de opsplitsing te maken wordt een lijst van blobs verkregen.
 
-![Opsplitsen van pixels in blobs](.gitbook/assets/splitting_blobs.png)
+![Opsplitsen van pixels in blobs](.gitbook/assets/splitting_blobs%20%281%29.png)
 
 Bovenstaand beeld komt uit Adaptive Vision Studio. Hier wordt duidelijk aangegeven dat de afbeelding meerdere blobs bevat door deze in verschillende kleuren af te beelden. Het originele beeld wordt in 1 kleur afgebeeld.
 
@@ -150,7 +150,7 @@ Deze functie kan bijvoorbeeld na een thresholding ervoor zorgen dat 1 object als
 
 Onderstaand beeld geeft een voorbeeld waar de expansie na een thresholding wordt gebruikt om een ROI te maken. Door de blob uit te breiden wordt het eigenlijke object volledig ingesloten en kan zo een ROI worden gecreëerd. Deze zou tevens verder kunnen worden gebruikt om het beeld te croppen of zelfs te draaien aan de hand van de oriëntatie van de ROI.
 
-![Expansie van een blob](.gitbook/assets/blob_expansion.png)
+![Expansie van een blob](.gitbook/assets/blob_expansion%20%281%29.png)
 
 #### Eroderen
 
@@ -160,7 +160,7 @@ Dit kan je natuurlijk niet zo doen wanneer het een meetapplicatie betreft waarbi
 
 Onderstaande beelden geven hier een voorbeeld van. Rechts werden een aantal munten via een thresholding gedetecteerd. Sommigen raken elkaar echter net aan en worden dus door de software als 1 geheel gezien. Door deze blob te eroderen en vervolgens op te splitsen kan elke munt als een aparte blob verder worden verwerkt.
 
-![Eroderen van munten na een thresholding - Links: origineel, rechts: geerodeerde blobs](.gitbook/assets/erode_region.png)
+![Eroderen van munten na een thresholding - Links: origineel, rechts: geerodeerde blobs](.gitbook/assets/erode_region%20%281%29.png)
 
 #### Sluiten
 
@@ -168,7 +168,7 @@ Het sluiten \(closing\) van een blob vult de gaten in een blob op aan de hand va
 
 Onderstaande beelden geven hiervan een voorbeeld. Rechts de verschillende blobs van een breadboard om elektronica prototypes te maken. Omwille van de reflectie van het licht worden de interne contacten niet gedetecteerd als onderdeel van de gaten. Links werd een morfologische sluiting uitgevoerd van de verschillende subblobs \(na een opsplitsing te hebben gemaakt\). Het resultaat is dat elk breadboard gaatje nu als een volledige blob wordt aanzien. Een volgende stap zou bijvoorbeeld het opmeten van de centerafstanden kunnen zijn.
 
-![Sluiten van blobs - Links: origineel, recht: opgevuld](.gitbook/assets/close_region.png)
+![Sluiten van blobs - Links: origineel, recht: opgevuld](.gitbook/assets/close_region%20%281%29.png)
 
 Deze functie is gelijkaardig aan een morfologische expansie. Het verschil is echter dat de sluting hier naar binnen en niet naar buiten toe gebeurt zoals bij expansie.
 
@@ -178,7 +178,7 @@ Het opvullen van gaten in blobs is een veelgebruikte functie. Op basis van een k
 
 Dit betekent dat onderstaande blobs niet zullen worden opgevuld met deze functie:
 
-![Niet-ingesloten gaten worden niet opgevuld](.gitbook/assets/not_filling_holes_in_blobs.png)
+![Niet-ingesloten gaten worden niet opgevuld](.gitbook/assets/not_filling_holes_in_blobs%20%281%29.png)
 
 ### Blob analyse
 
@@ -204,7 +204,7 @@ Het kalibreren van de opstelling is hier echt wel noodzakelijk. Enerzijds om afw
 
 Onderstaand beeld het resultaat van een opstelling voor het opmeten van de binnen en buitendiameter van rondellen. Merk op dat de nauwkeurigheid hier vrij laag ligt doordat er geen gebruik werd gemaakt van een kalibratiepatroon maar van een zichtbare schuifmaat voor het bepalen van de referentieschaal.
 
-![Opmeten van rondellen](.gitbook/assets/measuring_washers.png)
+![Opmeten van rondellen](.gitbook/assets/measuring_washers%20%281%29.png)
 
 ### 2D kalibratie
 
@@ -255,7 +255,7 @@ Deze algoritmen moeten meestal worden getraind met samples van de karakters. In 
 
 Volgend voorbeeld geeft een controle tussen de gedetecteerde barcode en het getal onder de barcode. In geval van een afwijking kan het blik worden verwijderd.
 
-![Optische karakter herkenning ter controle van een barcode](.gitbook/assets/can_ocr.png)
+![Optische karakter herkenning ter controle van een barcode](.gitbook/assets/can_ocr%20%281%29.png)
 
 Opgelet met proportionele fonts, deze kunnen soms voor problemen zorgen als de bounding boxes van de karakters gaan overlappen. Dit hangt echter af van de ondersteuning van het gebruikte algoritme. Dit probleem doet zich niet voor met monospaced fonts.
 
@@ -267,7 +267,7 @@ Hoewel specifieke scanners bestaan om deze codes te decoderen, kan een visieappl
 
 Onderstaand voorbeeld toont hoe een QR code meer informatie kan verschaffen over een product.
 
-![QR code gebruikt bij de workshop](.gitbook/assets/qr_code_decode_example.png)
+![QR code gebruikt bij de workshop](.gitbook/assets/qr_code_decode_example%20%281%29.png)
 
 Merk wel op dat een goed algoritme niet enkel perfect geprinte codes kan lezen maar ook codes moet kunnen decoderen die scheef staan of waar stukken van ontbreken.
 

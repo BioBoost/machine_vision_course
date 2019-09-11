@@ -12,7 +12,7 @@ Een visiesysteem is een term die alle noodzakelijke componenten omvat om beelden
 
 Wanneer wordt gesproken over machinevisie, dan houdt dit een visiesysteem in binnen een industriële context.
 
-![Machinevisie](.gitbook/assets/machine_vision.gif)
+![Machinevisie](.gitbook/assets/machine_vision%20%281%29.gif)
 
 Enerzijds wordt machinevisie toegepast als kwaliteitscontroleorgaan binnen het productieproces. Terwijl inspectie in het verleden hoofdzakelijk door de mens gebeurde kan een machinevisiesysteem dit de dag van vandaag sneller, consistenter en objectiever. Een visiesysteem werkt op het ritme van de productie en is onvermoeibaar.
 
@@ -34,7 +34,7 @@ De kwaliteit van producten die moeten voldoen aan bepaalde strikte wetgevingen \
 
 Ten opzicht van inspectie door een persoon, heeft machinevisie het voordeel dat het sneller, consistenter en onvermoeibaar is. Zo zijn er reeds machinevisie inspectiesystemen die meer dan 1000 objecten per minuut inspecteren. Daarnaast zal de software nooit de regels buigen naar zijn eigen wil. Elk beeld zal hetzelfde worden verwerkt. Machines zijn ook perfect voor het uitvoeren van repetitieve taken, terwijl mensen beter kunnen worden ingezet voor andere taken.
 
-![Inspectie door persoon](.gitbook/assets/human_inspection.png)
+![Inspectie door persoon](.gitbook/assets/human_inspection%20%281%29.png)
 
 ## Toepassingen van machinevisie
 
@@ -54,7 +54,7 @@ Een aantal voorbeelden die binnen de categorie inspectie vallen zijn:
 * controle van de kwaliteit van een label dat op een verpakking werd geprint
 * ...
 
-![Inspectie pins en mount holes van PCB](.gitbook/assets/inspection_raspberry_pi.png)
+![Inspectie pins en mount holes van PCB](.gitbook/assets/inspection_raspberry_pi%20%281%29.png)
 
 ### Foutdetectie
 
@@ -70,7 +70,7 @@ Een aantal voorbeelden die binnen deze categorie vallen zijn:
 * nazicht of metalen platen geen deuken bevatten
 * ...
 
-![Samenstelling van laminaat](.gitbook/assets/laminate-floor-cutaway.gif)
+![Samenstelling van laminaat](.gitbook/assets/laminate-floor-cutaway%20%281%29.gif)
 
 Dit type defecten zijn dikwijls ook heel moeilijk zichtbaar met het blote oog.
 
@@ -104,7 +104,7 @@ Dit systeem kan bijvoorbeeld ook gebruikt worden bij pick-and-place robots om de
 
 Machinevisie kan tevens gebruikt worden om de locatie en rotatie van objecten te bepalen die bijvoorbeeld los op een transportband liggen. Deze coördinaten kunnen dan bijvoorbeeld aan een pick-and-place robot worden doorgegeven zodat de stukken correct kunnen worden gegrepen en verplaatst.
 
-![Locatiebepaling object op transportband](.gitbook/assets/location_conveyor.jpg)
+![Locatiebepaling object op transportband](.gitbook/assets/location_conveyor%20%281%29.jpg)
 
 ![Pick-and-place met machinevisie](.gitbook/assets/pick_and_place.jpg)
 
@@ -118,7 +118,7 @@ Een machinevisiesysteem, zoals weergegeven in volgende figuur, bestaat typisch u
 * **een verwerkingseenheid** die de beelden analyseert en verwerkt. Dit kan een computer, een embedded systeem of de camera zelf zijn \(smart-camera\);
 * en **een display** of **HMI** \(Human Machine Interface\) dat instaat voor de interactie met de operator.
 
-![Een typisch machinevisiesysteem](.gitbook/assets/machine_vision_setup.png)
+![Een typisch machinevisiesysteem](.gitbook/assets/machine_vision_setup%20%281%29.png)
 
 Afhankelijk van de applicatie zijn er ook nog andere componenten noodzakelijk. In geval van een kwaliteitscontrole zal er eveneens een selectieorgaan moeten worden voorzien. Wanneer het visiesysteem concludeert dat een bepaald stuk niet aan de vooropgestelde eisen voldoet kan het op deze manier uit de productie worden gefilterd.
 
@@ -128,7 +128,7 @@ Als het visiesysteem dienst doet als locatie en positiebepaler van stukken die m
 
 Een machinevisie applicatie bestaat typisch uit een aantal verschillende stappen. Zo moet het beeld eerst worden binnengenomen. Vervolgens moet het te inspecteren object worden gelokaliseerd waarna de eigenlijke inspectie kan plaatsvinden. Als laatste moet er dan een beslissing worden genomen en moet dit resultaat worden gecommuniceerd \(visueel of hardwarematig\).
 
-![Het inspectieproces](.gitbook/assets/inspection_process.png)
+![Het inspectieproces](.gitbook/assets/inspection_process%20%281%29.png)
 
 ### Beeldopname
 
