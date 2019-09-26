@@ -13,7 +13,7 @@ Deze cursus werd u aangeboden door Nico De Witte en Tommy Verbeerst als onderdee
 
 ### Tommy Verbeerst
 
-* Lector / Projectmedewerker aan de hogeschool
+* Lector
 * tommy.verbeerst@vives.be
 
 ![Tommy Verbeerst](.gitbook/assets/tommy_verbeerst.png)
