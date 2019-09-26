@@ -80,7 +80,7 @@ Belichten met IR \(InfraRed\), beter gezegd NIR \(Near InfraRed\), werkt net zoa
 
 ![Wit licht \(links\) en infrarood licht \(rechts\) - beiden monochrome camera](.gitbook/assets/nir_crayon_example.png)
 
-In geval er gebruik wordt gemaakt van een kleurencamera is het belangrijk dat belichting in dit geval gebalanceerd is en alle kleuren bevat. Anders ziet de camera verschillende intensiteiten voor verschillende kleuren. Veel kleurencamera's echter wel correcties uitvoeren.
+In geval er gebruik wordt gemaakt van een kleurencamera is het belangrijk dat belichting in dit geval gebalanceerd is en alle kleuren bevat. Anders ziet de camera verschillende intensiteiten voor verschillende kleuren. Veel kleurencamera's kunnen echter wel correcties uitvoeren.
 
 ## LED-verlichting
 
