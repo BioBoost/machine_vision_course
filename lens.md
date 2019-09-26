@@ -4,7 +4,7 @@ De lens bevindt zich tussen het object waarvan we een beeld willen nemen en de s
 
 Volgende figuur schets de projectie van een werkelijk beeld op de camera sensor door de lens. In dit hoofdstuk worden alle noodzakelijke parameters voor het bepalen van de lens toegelicht.
 
-![Field of View van de camera](.gitbook/assets/field_of_view.png)
+![Field of View van de camera](.gitbook/assets/field_of_view%20%281%29.png)
 
 ## Field of View
 
@@ -41,13 +41,13 @@ Bij Optical Character Recognition \(OCR\) moet ook zeker rekening worden gehoude
 
 Bij blobanalyse speelt het kleinste detail dat waarneembaar moet zijn de belangrijkste rol.
 
-![Noodzakelijke spatiale resolutie voor blobanalyse](.gitbook/assets/spatial_res_blob.png)
+![Noodzakelijke spatiale resolutie voor blobanalyse](.gitbook/assets/spatial_res_blob%20%281%29.png)
 
 ### Meetapplicatie
 
 Bij een meetapplicatie is er nood aan 10 pixels per meetnauwkeurigheid. Indien subpixel nauwkeurigheid wordt gehanteerd mag de meetnauwkeurigheid worden gedeeld door het aantal pixels gebruikt door het subpixelalgoritme.
 
-![Noodzakelijke spatiale resolutie voor een meting](.gitbook/assets/spatial_res_measure.png)
+![Noodzakelijke spatiale resolutie voor een meting](.gitbook/assets/spatial_res_measure%20%281%29.png)
 
 In het geval van een meetapplicatie kan het aantal pixels per detail worden bepaald aan de hand van volgende formule:
 
@@ -139,7 +139,7 @@ Hiervan wordt de meest deterministische component genomen voor het selecteren va
 
 De kenmerkende factor van een lens is de focale lengte \($$f$$\), of brandpuntsafstand. Deze bepaalt de mate waarin lichtstralen door het optisch kanaal divergeren of convergeren.
 
-![Cheatsheet focale lengte](.gitbook/assets/focal_length_cheat_sheet.jpg)
+![Cheatsheet focale lengte](.gitbook/assets/focal_length_cheat_sheet%20%281%29.jpg)
 
 Onderstaande formules vormen een benadering voor het bepalen van de focale lengte van een lens.
 
@@ -158,7 +158,7 @@ Hierbij zijn:
 * $$sensor_{hor}$$ en $$sensor_{ver}$$ zijn de exacte afmetingen van de sensor, uitgedrukt in `mm`
 * $$FOV_{hor}$$ en $$FOV_{ver}$$ zijn de afmetingen van het field of view, uitgedrukt in `mm`
 
-![Bepalen focale lengte van een lens](.gitbook/assets/focal_length.png)
+![Bepalen focale lengte van een lens](.gitbook/assets/focal_length%20%281%29.png)
 
 Voorbeeld:
 
@@ -188,7 +188,7 @@ Een ander belangrijk kenmerk van een lens is het F-getal. Deze parameter geeft a
 
 Een aantal veelvoorkomende waarden worden weergegeven in onderstaande figuur.
 
-![F-getal van een lens](.gitbook/assets/f-number_lens.png)
+![F-getal van een lens](.gitbook/assets/f-number_lens%20%281%29.png)
 
 Merk op dat een kleiner F-getal een vermeerdering van de lichtdoorgang vertegenwoordigt.
 
@@ -196,7 +196,7 @@ Merk op dat een kleiner F-getal een vermeerdering van de lichtdoorgang vertegenw
 
 Met scherptediepte \(depth of field\) wordt de afstand bedoeld tussen de dichtstbijzijnde en verste punten die scherp worden afgebeeld. Deze afstand wordt onder andere beïnvloed door de grootte van de pixels en de vergroting van de lens. De parameter die het meeste invloed heeft op de scherptediepte is echter de gebruikte diafragmaopening \(aperture\). Volgende figuur geeft een aantal voorbeelden.
 
-![Voorbeeld scherptediepte instelling](.gitbook/assets/depth_of_field_example.png)
+![Voorbeeld scherptediepte instelling](.gitbook/assets/depth_of_field_example%20%281%29.png)
 
 Wanneer de diafragmaopening groot is \(klein F-getal\), dan wordt een kleine scherptediepte verkregen. Indien de diafragmaopening klein is \(groot F-getal\), dan zal de scherptediepte groot zijn.
 
@@ -318,7 +318,7 @@ Een C-mount lens kan in een CS-mount camera worden geschroefd door een adapterri
 
 Ook wel een bajonetaansluiting genoemd.
 
-![F-mount](.gitbook/assets/f-mount.jpg)
+![F-mount](.gitbook/assets/f-mount%20%281%29.jpg)
 
 ## Sensorgrootte
 
@@ -346,7 +346,7 @@ Zo kunnen filters worden toegepast om een bepaald gebied uit het spectrum te ond
 
 Daarnaast zijn er ook polarisatiefilters, welke hinderlijke reflecties tegen werken. Een voorbeeld is te zien in volgend beeld.
 
-![Gebruik van polarisatiefilters \(links met polarisatiefilter, rechts zonder\)](.gitbook/assets/vs0114-ft2-machvis-p6sl.jpg)
+![Gebruik van polarisatiefilters \(links met polarisatiefilter, rechts zonder\)](.gitbook/assets/vs0114-ft2-machvis-p6sl%20%281%29.jpg)
 
 Op dit moment wordt dit onderwerp echter niet verder besproken in deze cursus. Staat wel op de planning voor een volgende versie.
 
@@ -354,7 +354,7 @@ Op dit moment wordt dit onderwerp echter niet verder besproken in deze cursus. S
 
 Extenders, weergegeven in onderstaande figuur, kunnen tussen de camera en lens worden geschroefd en zorgen voor een vergroting van de focale lengte van de lens.
 
-![Lens extenders](.gitbook/assets/lens_extender.jpg)
+![Lens extenders](.gitbook/assets/lens_extender%20%281%29.jpg)
 
 In tegenstelling tot extenders bevatten tussenringen geen optische elementen en hebben ze dus enkel tot doel de lens verder van de sensor te brengen. Het gevolg hiervan is dat:
 
@@ -380,11 +380,11 @@ De meeste lenzen hebben een magnification &lt; 1. Het geprojecteerd beeld op de 
 
 Telecentrische lenzen hebben een bepaald gebied waarbij de lichtstralen parallel lopen en dus geen perspectiefvervorming vertonen zoals weergegeven in onderstaande figuur. De vergroting is dan constant in een bepaald gebied.
 
-![Gewone lens versus telecentrische lens](.gitbook/assets/telecentric_lens.gif)
+![Gewone lens versus telecentrische lens](.gitbook/assets/telecentric_lens%20%281%29.gif)
 
 Dit type lens wordt meestal toegepast in meetapplicaties. Bij een gewone lens zorgt de geringste variatie in afstand tussen object en lens voor een groter of kleiner object op de sensor.
 
 Onderstaande figuur geeft een voorbeeld van een beeld genomen met een gewone lens en een beeld genomen met een telecentrische lens.
 
-![Gewone lens \(vertoont perspectiefvervorming\) versus telecentrische lens \(vertoon geen perspectiefvervorming\)](.gitbook/assets/telecentric_lens_examples.jpg)
+![Gewone lens \(vertoont perspectiefvervorming\) versus telecentrische lens \(vertoon geen perspectiefvervorming\)](.gitbook/assets/telecentric_lens_examples%20%281%29.jpg)
 

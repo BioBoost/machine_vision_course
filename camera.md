@@ -27,7 +27,7 @@ De belangrijkste eigenschappen van een sensor zijn:
 
 Zichtbaar licht is elektromagnetische straling in het frequentiebereik dat waarneembaar is met het menselijk oog. Bij licht spreekt men meestal over de golflengte in vacuüm en lucht die bij een frequentie hoort, omdat in de meeste toepassingen met golflengten gewerkt wordt. De golflengte is, anders dan de frequentie, afhankelijk van de stof waar de straling doorloopt. Het zichtbare spectrum strekt zich uit over golflengten van ongeveer 380 nm \(violet\) tot 780 nm \(rood\).
 
-![Het zichtbaar spectrum](.gitbook/assets/visible_spectrum.jpg)
+![Het zichtbaar spectrum](.gitbook/assets/visible_spectrum%20%281%29.jpg)
 
 De drie eigenschappen die licht beschrijven, zijn de lichtsterkte \(amplitude\), de kleur \(frequentie of golflengte\) en de polarisatie \(trillingsrichting\).
 
@@ -49,7 +49,7 @@ In een CMOS sensor heeft elke pixel zijn eigen lading-naar-spanningsconversie sc
 
 CMOS technologie beloofde energie-efficiënter te zijn dan CCD en net daarom heeft de technologie een grote stap voorwaarts gemaakt door de enorme investeringen door telefoonfabrikanten.
 
-![CCD versus CMOS](.gitbook/assets/ccd_versus_cmos.jpg)
+![CCD versus CMOS](.gitbook/assets/ccd_versus_cmos%20%281%29.jpg)
 
 | Eigenschap | CCD | CMOS |
 | :--- | :--- | :--- |
@@ -60,7 +60,7 @@ CMOS technologie beloofde energie-efficiënter te zijn dan CCD en net daarom hee
 | Piek gevoeligheid | 500 nm \(groen\) | 650 nm \(rood\) |
 | Dode pixels | Weinig | Veel |
 
-![Sensor fill factor](.gitbook/assets/camera_sensor_fill_factor.jpg)
+![Sensor fill factor](.gitbook/assets/camera_sensor_fill_factor%20%281%29.jpg)
 
 | Toepassing | CCD | CMOS |
 | :--- | :--- | :--- |
@@ -73,7 +73,7 @@ CMOS technologie beloofde energie-efficiënter te zijn dan CCD en net daarom hee
 
 Bij CCD zijn er twee manieren om een beeld uit de sensor te lezen. Enerzijds is er progressieve scan en anderzijds interlaced scan. Bij progressieve scan wordt de volledige sensor actief en wordt het beeld in één keer uitgelezen. Bij interlaced scan worden de ene keer de even rijen uitgelezen en de andere keer de oneven rijen. De voordelen van deze laatste techniek zijn dat de noodzakelijke dataoverdracht halveert en de gevoeligheid vergroot, anderzijds ontstaat het nadelig kameffect bij bewegende objecten, zoals te zien in onderstaande figuur.
 
-![Kameffect bij interlaced scan](.gitbook/assets/interlaced_versus_progressive_scan.jpg)
+![Kameffect bij interlaced scan](.gitbook/assets/interlaced_versus_progressive_scan%20%281%29.jpg)
 
 #### Global en rolling shutter
 
@@ -97,7 +97,7 @@ Een aantal veelvoorkomende formaten van sensoren worden in onderstaande tabel we
 | 2/3 inch | 8.8 | 6.6 | 11 |
 | 1 inch | 12.8 | 9.6 | 16 |
 
-![Veelvoorkomende formaten van sensoren](.gitbook/assets/sensor_size.png)
+![Veelvoorkomende formaten van sensoren](.gitbook/assets/sensor_size%20%281%29.png)
 
 Om de exacte afmetingen van de sensor te weten kan gebruik gemaakt worden van de `resolutie` en de `pixelsize` zoals aangegeven in volgende formules.
 
@@ -179,7 +179,7 @@ De bitdiepte staat voor het aantal stappen tussen geen signaal \(zwart\) en maxi
 
 Een smart camera heeft zowel een camera, geheugen, CPU als I/O aan boord. Deze camera kan volledig op zich werken en heeft geen externe PC nodig om de beelden te verwerken \(eventueel wel om ze te archiveren\).
 
-![Smart camera&apos;s van het merk Cognex](.gitbook/assets/smart_camera_cognex.jpg)
+![Smart camera&apos;s van het merk Cognex](.gitbook/assets/smart_camera_cognex%20%281%29.jpg)
 
 Bij een PC-based systeem wordt een niet-intelligente machinevisie camera gebruikt die wordt gekoppeld aan een computer of embedded systeem. De beelden worden na elke captatie overgezet van de camera naar de computer om daar verder te verwerken. Dit type camera kan wel reeds een aantal preprocessing bewerkingen uitvoeren zoals \(meestal aan de hand van een interne FPGA\):
 

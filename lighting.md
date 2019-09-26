@@ -18,7 +18,7 @@ Het contrast van een beeld beschrijft hoe goed wit en zwart van elkaar te onders
 
 In een machinevisie applicatie is het tevens belangrijk dat het object makkelijk kan worden onderscheidt van de achtergrond \(dit is eigenlijk ruis\).
 
-![Voorgrond en achtergrond](.gitbook/assets/foreground_background.png)
+![Voorgrond en achtergrond](.gitbook/assets/foreground_background%20%281%29.png)
 
 Zowel de lens, de sensor als verlichting spelen een belangrijke rol in het bepalen van het resulterende contrast.
 
@@ -28,15 +28,15 @@ In realiteit is het onmogelijk om een perfecte overgang te maken van zwart naar 
 
 De mogelijkheid om scherpe overgangen te reproduceren bepaalt ook hoe goed een onderscheidt zal kunnen worden gemaakt tussen objecten die dichter bij elkaar komen te liggen. Onderstaand een voorbeeld van twee dots die eerst ver uit elkaar liggen en dan dichter bij elkaar worden geplaatst. In het eerste geval zijn ze nog goed van elkaar te onderscheiden. In het tweede geval lopen ze over in elkaar door het feit dat de randen blurry zijn.
 
-![Contrast bij naderende objecten](.gitbook/assets/lens_contrast.png)
+![Contrast bij naderende objecten](.gitbook/assets/lens_contrast%20%281%29.png)
 
 Dit wordt dikwijls getest aan de hand van een Ronchi patroon. Hierbij wordt een beeld genomen van witte en zwarte lijnen die op een bepaalde afstand van elkaar liggen. Dit wordt de frequentie genoemd van de lijnen. Daarom wordt het vermogen van een lens om contrast over te brengen ook gespecificeerd bij een bepaalde frequentie. Hieronder een voorbeeld.
 
-![Contrast bij naderende objecten](.gitbook/assets/lens_contrast_2.jpg)
+![Contrast bij naderende objecten](.gitbook/assets/lens_contrast_2%20%281%29.jpg)
 
 Onderstaande beelden zijn van eenzelfde object genomen, maar door twee verschillende lenzen met eenzelfde sensor en camera. Beide beelden werden uit het centerpunt van de sensor genomen. Het vermogen van elke lens om het contrast te reproduceren is een bepalende factor voor de prestaties van het systeem.
 
-![Contrast bij verschillende lenzen](.gitbook/assets/contrast_different_lenses.png)
+![Contrast bij verschillende lenzen](.gitbook/assets/contrast_different_lenses%20%281%29.png)
 
 ## Lichtbronnen
 
@@ -58,7 +58,7 @@ Bij de selectie van de meest geschikte lichtbron moet rekening worden gehouden m
 
 Initieel wordt meestal vertrokken van wit licht. Dit is een verzameling van golflengtes van ongeveer 350nm tot 700nm zoals te zien in onderstaande figuur.
 
-![Spectrum van wit licht \(LED&apos;s\)](.gitbook/assets/spectrum_of_white_light.png)
+![Spectrum van wit licht \(LED&apos;s\)](.gitbook/assets/spectrum_of_white_light%20%281%29.png)
 
 Het is echter aangewezen om met één bepaalde kleur te werken. Onder andere om de chromatische aberratie te verkleinen. Daarnaast versterkt het belichten van een gekleurd object met de tegenovergestelde kleur het contrast van dit object in een monochroom beeld.
 
@@ -74,7 +74,7 @@ Het omgekeerde is ook mogelijk. Zo kan je een rood object laten verdonkeren door
 
 Daarnaast kan je ook een filter op de lens plaatsen om dit effect nog te versterken door enkel bepaalde kleuren door te laten.
 
-![Banddoorlaat kleurenfilter op lens laat bepaalde golflengten door](.gitbook/assets/colored_lenses.jpg)
+![Banddoorlaat kleurenfilter op lens laat bepaalde golflengten door](.gitbook/assets/colored_lenses%20%281%29.jpg)
 
 Belichten met IR \(InfraRed\), beter gezegd NIR \(Near InfraRed\), werkt net zoals belichten met licht in het visuele deel van het spectrum. Men heeft een lichtbron, een object en een ontvanger \(sensor\). Het effect dat speelt op het object is steeds een som van transmissie, reflectie of absorptie. Het is zo dat voor een gegeven materiaal deze verhoudingen anders liggen bij andere golflengtes. Zo worden de invloeden van kleuren weggewerkt en is het de materiaalsoort die primeert.
 
@@ -109,7 +109,7 @@ Een backlight is een uniforme vlakke belichting die achter het te inspecteren ob
 
 Indien het object niet transparant is zal enkel de contour inspecteerbaar zijn. Dit doordat het object geen licht doorlaat en dus zwart zal zijn op het resulterende beeld. De achtergrond zal dan een hoge intensiteit hebben en dus een groot contrast veroorzaken met het object.
 
-![Backlight principe](.gitbook/assets/backlight.jpg)
+![Backlight principe](.gitbook/assets/backlight%20%281%29.jpg)
 
 Onderstaand beeld toont een voorbeeld van een gloeilamp die werd belicht met verlichting langs boven \(link\) en verlichting aan de hand van een backlight \(rechts\). Rechts kunnen we heel duidelijk de contouren zien van de interne componenten.
 
@@ -129,7 +129,7 @@ Ring lights komen ook typische in twee configuraties, namelijk een als bright fi
 
 Bij dit type belichting wordt het licht door het object weerkaatst richting de lens. Deze veel gebruikte techniek is toepasbaar voor het belichten van niet-spiegelende voorwerpen. Een spiegelend object zal anders de camera en/of verlichting tonen.
 
-![Bright field belichting](.gitbook/assets/bright_field.png)
+![Bright field belichting](.gitbook/assets/bright_field%20%281%29.png)
 
 Onderstaand voorbeeld geeft een geponste QR-code terug die met bright field verlichting werd belicht. Er is duidelijk te zien dat oneffenheden in het oppervlak geen licht in de lens reflecteren en dus donker overkomen.
 
@@ -145,13 +145,13 @@ Dit kan worden verwezenlijkt door een ring light zeer dicht bij het object te pl
 
 Onderstaand voorbeeld geeft een geponste QR-code terug die met dark field verlichting werd belicht. Er is duidelijk te zien dat oneffenheden in het oppervlak nu wel licht in de lens reflecteren en dus licht overkomen.
 
-![Dark field belichting van geponste QR-code](.gitbook/assets/dark_field_example.png)
+![Dark field belichting van geponste QR-code](.gitbook/assets/dark_field_example%20%281%29.png)
 
 Dit type belichting wordt veel gebruikt om krassen en scheuren in oppervlakten waar te nemen.
 
 #### Voorbeelden van bright field en dark field belichting
 
-![Bright field en dark field belichting](.gitbook/assets/bright_field_dark_field.png)
+![Bright field en dark field belichting](.gitbook/assets/bright_field_dark_field%20%281%29.png)
 
 ### Bar light
 
@@ -169,7 +169,7 @@ Onderstaande figuur toont het principe van een dome light.
 
 Volgend voorbeeld toont een folie die bedrukt is met een vervaldatum. In eerste instantie werd deze verlicht met een bright field ring light \(rechts\). Door de vele reflecties is het beeld niet bruikbaar. Door hier gebruik te maken van een dome light worden de reflecties geneutraliseerd \(links\).
 
-![Reflecterende verpakking - links: bright field verlichting, rechts: dome light verlichting](.gitbook/assets/dome_light_example.png)
+![Reflecterende verpakking - links: bright field verlichting, rechts: dome light verlichting](.gitbook/assets/dome_light_example%20%281%29.png)
 
 ## Belichtingsmode
 
@@ -179,7 +179,7 @@ Voor het belichten van het object kan men er worden gekozen tussen continue, pul
 * **Pulserende verlichting**: wordt gebruikt als er pauzes zijn tussen het zich presenteren van een object. Hierdoor wordt de tijd dat de verlichting verzwakt vertraagd en de levensduur verlengd. Dit is bijvoorbeeld toepasbaar wanneer de objecten op een vaste tijdspannen worden aangevoerd via een transportband.
 * **Strobe verlichting**: wordt gebruikt om bewegingsonscherpte te voorkomen, analoog met de belichtingstijd.
 
-![Van boven naar beneden: continue, pulserende en strobe verlichting](.gitbook/assets/continuous_pulsed_strobe_light.png)
+![Van boven naar beneden: continue, pulserende en strobe verlichting](.gitbook/assets/continuous_pulsed_strobe_light%20%281%29.png)
 
 ## Polariserende filters
 
