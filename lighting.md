@@ -137,7 +137,7 @@ Onderstaand voorbeeld geeft een geponste QR-code terug die met bright field verl
 
 #### Dark field belichting
 
-Hier wordt het licht niet weerkaatst richting lens. De camera ziet enkel verspreid licht ten gevolge van oneffenheden in oppervlak van het object. Met andere woorden, reliëf wordt hierdoor zichtbaar.
+Hier wordt het licht niet weerkaatst richting lens. De camera ziet enkel verspreid licht ten gevolge van oneffenheden in oppervlak van het object. Met andere woorden, het reliëf wordt hierdoor zichtbaar.
 
 Dit kan worden verwezenlijkt door een ring light zeer dicht bij het object te plaatsen.
 
@@ -167,7 +167,7 @@ Onderstaande figuur toont het principe van een dome light.
 
 ![Dome light principe](.gitbook/assets/dome_light_principle.png)
 
-Volgend voorbeeld toont een folie die bedrukt is met een vervaldatum. In eerste instantie werd deze verlicht met een bright field ring light \(rechts\). Door de vele reflecties is het beeld niet bruikbaar. Door hier gebruik te maken van een dome light worden de reflecties geneutraliseerd \(links\).
+Volgend voorbeeld toont een folie die bedrukt is met een vervaldatum. In eerste instantie werd deze verlicht met een bright field ring light \(links\). Door de vele reflecties is het beeld niet bruikbaar. Door hier gebruik te maken van een dome light worden de reflecties geneutraliseerd \(rechts\).
 
 ![Reflecterende verpakking - links: bright field verlichting, rechts: dome light verlichting](.gitbook/assets/dome_light_example%20%281%29.png)
 

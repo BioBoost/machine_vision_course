@@ -90,7 +90,7 @@ Een aantal van de belangrijke inspectietools worden verder in dit hoofdstuk besp
 
 In volgende secties worden een aantal begrippen gebruikt die hier kort worden toegelicht.
 
-Een **blob** is een groep van pixels die aan elkaar hangt. Onderstaand beeld geeft een voorbeeld van een aantal blobs.
+Een **blob** is een groep van pixels die aan elkaar hangen. Onderstaand beeld geeft een voorbeeld van een aantal blobs.
 
 ![Verschillende blobs](.gitbook/assets/coins.png)
 
@@ -124,7 +124,7 @@ Onderstaande afbeelding geeft een voorbeeld van een connector waar thresholding 
 
 ![Thresholding - van links naar rechts: origineel, thresholded, opgesplitst, aantal gevonden](.gitbook/assets/thresholding.png)
 
-Merk op dat in bovenstaand voorbeeld de ROI werd ingesteld op het linkse deel van de connector.
+Merk op dat in bovenstaand voorbeeld de ROI \(Region Of Intrest\) werd ingesteld op het linkse deel van de connector.
 
 In geval de belichting kan variëren is het in de meeste gevallen best gebruik te maken van dynamische thresholding. Hierbij wordt er rekening gehouden met de intensiteitsverdeling van het volledige beeld voor het bepalen van de thresholdwaarde.
 
@@ -158,7 +158,7 @@ De erodeer \(erode\) functie laat toe de blobs te verkleinen. Dit kan handig zij
 
 Dit kan je natuurlijk niet zo doen wanneer het een meetapplicatie betreft waarbij de blobs moeten worden opgemeten. In dat geval moeten andere technieken worden toegepast.
 
-Onderstaande beelden geven hier een voorbeeld van. Rechts werden een aantal munten via een thresholding gedetecteerd. Sommigen raken elkaar echter net aan en worden dus door de software als 1 geheel gezien. Door deze blob te eroderen en vervolgens op te splitsen kan elke munt als een aparte blob verder worden verwerkt.
+Onderstaande beelden geven hier een voorbeeld van. Links werden een aantal munten via een thresholding gedetecteerd. Sommigen raken elkaar echter net aan en worden dus door de software als 1 geheel gezien. Door deze blob te eroderen en vervolgens op te splitsen kan elke munt als een aparte blob verder worden verwerkt.
 
 ![Eroderen van munten na een thresholding - Links: origineel, rechts: geerodeerde blobs](.gitbook/assets/erode_region%20%281%29.png)
 
@@ -166,7 +166,7 @@ Onderstaande beelden geven hier een voorbeeld van. Rechts werden een aantal munt
 
 Het sluiten \(closing\) van een blob vult de gaten in een blob op aan de hand van een bepaalde kernel \(ellips, kruis of rechthoek\).
 
-Onderstaande beelden geven hiervan een voorbeeld. Rechts de verschillende blobs van een breadboard om elektronica prototypes te maken. Omwille van de reflectie van het licht worden de interne contacten niet gedetecteerd als onderdeel van de gaten. Links werd een morfologische sluiting uitgevoerd van de verschillende subblobs \(na een opsplitsing te hebben gemaakt\). Het resultaat is dat elk breadboard gaatje nu als een volledige blob wordt aanzien. Een volgende stap zou bijvoorbeeld het opmeten van de centerafstanden kunnen zijn.
+Onderstaande beelden geven hiervan een voorbeeld. Links de verschillende blobs van een breadboard om elektronica prototypes te maken. Omwille van de reflectie van het licht worden de interne contacten niet gedetecteerd als onderdeel van de gaten. Rechts werd een morfologische sluiting uitgevoerd van de verschillende subblobs \(na een opsplitsing te hebben gemaakt\). Het resultaat is dat elk breadboard gaatje nu als een volledige blob wordt aanzien. Een volgende stap zou bijvoorbeeld het opmeten van de centerafstanden kunnen zijn.
 
 ![Sluiten van blobs - Links: origineel, recht: opgevuld](.gitbook/assets/close_region%20%281%29.png)
 
@@ -182,7 +182,7 @@ Dit betekent dat onderstaande blobs niet zullen worden opgevuld met deze functie
 
 ### Blob analyse
 
-Blob analyse wordt over het algemeen uitgevoerd nadat een thresholding werd toegepast op het origineel beeld. Door de gevonden blobs te analyseren \(grootte, lengte, vorm, aantal gaten, ...\) kunnen karakteristieken van het object in worden gecontroleerd.
+Blob analyse wordt over het algemeen uitgevoerd nadat een thresholding werd toegepast op het origineel beeld. Door de gevonden blobs te analyseren \(grootte, lengte, vorm, aantal gaten, ...\) kunnen karakteristieken van het object worden gecontroleerd.
 
 Blobanalyse kan daarnaast ook worden gebruikt om tussen verschillende objecten te differentiëren.
 
@@ -202,7 +202,7 @@ Meten is een van de meest gebruikte applicatievormen in de machinevisie sector. 
 
 Het kalibreren van de opstelling is hier echt wel noodzakelijk. Enerzijds om afwijkingen van de lens te minimaliseren en anderzijds om de omzetting te doen naar bruikbare afmetingen \(anders zijn de afmetingen in pixels\).
 
-Onderstaand beeld het resultaat van een opstelling voor het opmeten van de binnen en buitendiameter van rondellen. Merk op dat de nauwkeurigheid hier vrij laag ligt doordat er geen gebruik werd gemaakt van een kalibratiepatroon maar van een zichtbare schuifmaat voor het bepalen van de referentieschaal.
+Onderstaand beeld geeft het resultaat van een opstelling voor het opmeten van de binnen en buitendiameter van rondellen. Merk op dat de nauwkeurigheid hier vrij laag ligt doordat er geen gebruik werd gemaakt van een kalibratiepatroon maar van een zichtbare schuifmaat voor het bepalen van de referentieschaal.
 
 ![Opmeten van rondellen](.gitbook/assets/measuring_washers%20%281%29.png)
 
